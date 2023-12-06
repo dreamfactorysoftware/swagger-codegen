@@ -1,0 +1,1006 @@
+repo_name: dreamfactorysoftware/swagger-codegen
+report_id: 3a78d821619df7e1cbd78c7bdf6de92e
+repo_type: Public
+timestamp: '2023-12-06T22:37:47+00:00'
+requested_by: specialjyo
+provider: github
+branch: master
+detected_tools_count: 54
+tools:
+- name: ActionScript
+  description: 'An object-oriented programming language '
+  website_url: http://www.adobe.com/devnet/actionscript.html
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2329/8ei_UuLc_400x400.png
+  detection_source: Repo Metadata
+- name: C#
+  description: Simple, general-purpose, object-oriented programming language for the
+    .NET platform
+  website_url: http://csharp.net
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1015/1200px-C_Sharp_wordmark.svg.png
+  detection_source: samples/client/petstore/csharp/src/Com/Wordnik/Petstore/Api/PetApi.cs
+  last_updated_by: Danny Gershman
+  last_updated_on: 2013-05-28 17:57:28.000000000 Z
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: Mustache
+  description: Logic-less templates
+  website_url: http://mustache.github.io/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/1142/197655.png
+  detection_source: Repo Metadata
+- name: Objective-C
+  description: The primary programming language you use when writing software for
+    OS X and iOS
+  website_url: https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1008/xcode.png
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source: Repo Metadata
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source: samples/client/petstore/ruby/Gemfile
+  last_updated_by: Tony Tam
+  last_updated_on: 2012-09-26 20:02:27.000000000 Z
+- name: Scala
+  description: A pure-bred object-oriented language that runs on the JVM
+  website_url: http://www.scala-lang.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1012/scala.png
+  detection_source: Repo Metadata
+- name: Swift
+  description: 'An innovative new programming language for Cocoa and Cocoa Touch. '
+  website_url: https://developer.apple.com/swift/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1009/tuHsaI2U.png
+  detection_source: samples/client/petstore/objc/Podfile
+  last_updated_by: Tony Tam
+  last_updated_on: 2013-10-18 21:43:26.000000000 Z
+- name: Akka
+  description: Build powerful concurrent &amp; distributed applications more easily
+  website_url: http://akka.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Concurrency Frameworks
+  image_url: https://img.stackshare.io/service/1773/bxLhidly.png
+  detection_source: samples/server-generator/scalatra/output/src/main/scala/ScalatraBootstrap.scala
+  last_updated_by: Tony Tam
+  last_updated_on: 2012-09-21 06:04:21.000000000 Z
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source: samples/server-generator/node/output/package.json
+  last_updated_by: Tony Tam
+  last_updated_on: 2014-06-11 13:41:31.000000000 Z
+- name: Jackson
+  description: A suite of data-processing tools for Java
+  website_url: https://github.com/FasterXML/jackson
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Java Tools
+  image_url: https://ucarecdn.com/d8ec839d-4d66-4c08-8297-9e2be82f6b75/
+  detection_source: build.sbt
+  last_updated_by: Ivan Porto Carrero
+  last_updated_on: 2014-05-30 22:17:53.000000000 Z
+- name: Sinatra
+  description: Classy web-development dressed in a DSL
+  website_url: http://www.sinatrarb.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/999/logo.png
+  detection_source: samples/server-generator/sinatra/output/Gemfile
+  last_updated_by: Tony Tam
+  last_updated_on: 2012-09-06 16:19:13.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: JUnit
+  description: A programmer-oriented testing framework for Java
+  website_url: http://junit.org/
+  version: 4.8.1
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2020/874086.png
+  detection_source_url: github.com/dreamfactorysoftware/swagger-codegen/blob/master/samples/client/petstore/android-java/pom.xml
+  detection_source: samples/client/petstore/android-java/pom.xml
+  last_updated_by: Tony Tam
+  last_updated_on: 2013-09-20 19:34:12.000000000 Z
+- name: Log4j
+  description: A Java-based logging utility
+  website_url: https://logging.apache.org/log4j/2.x/
+  version: 1.6.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Logging Tools
+  image_url: https://img.stackshare.io/service/2804/Coralogix-log4j-integration.jpg
+  detection_source_url: github.com/dreamfactorysoftware/swagger-codegen/blob/master/samples/server-generator/java-jaxrs/output/pom.xml
+  detection_source: samples/server-generator/java-jaxrs/output/pom.xml
+  last_updated_by: Tony Tam
+  last_updated_on: 2013-04-03 07:19:21.000000000 Z
+- name: Logback
+  description: A logging framework for Java applications
+  website_url: https://logback.qos.ch/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2923/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source: src/main/resources/logback.xml
+  last_updated_by: Tony Tam
+  last_updated_on: 2013-08-02 01:21:19.000000000 Z
+- name: RSpec
+  description: Behaviour Driven Development for Ruby
+  website_url: https://rspec.info/
+  version: 2.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2539/logo.png
+  detection_source_url: github.com/dreamfactorysoftware/swagger-codegen/blob/master/samples/client/petstore/ruby/Gemfile.lock
+  detection_source: samples/client/petstore/ruby/swagger.gemspec
+  last_updated_by: Tony Tam
+  last_updated_on: 2012-09-26 20:02:27.000000000 Z
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source: samples/server-generator/sinatra/output/Gemfile
+  last_updated_by: Tony Tam
+  last_updated_on: 2012-09-06 16:19:13.000000000 Z
+- name: SLF4J
+  description: Simple logging facade for Java
+  website_url: http://slf4j.org/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2805/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source: samples/server-generator/java-jaxrs/output/pom.xml
+  last_updated_by: Tony Tam
+  last_updated_on: 2013-04-03 07:19:21.000000000 Z
+- name: ScalaTest
+  description: A testing tool in the Scala ecosystem
+  website_url: http://www.scalatest.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/4371/frame_apngframe0.png
+  detection_source: build.sbt
+  last_updated_by: Tony Tam
+  last_updated_on: 2014-08-27 07:17:33.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source: ".travis.yml"
+  last_updated_by: Tony Tam
+  last_updated_on: 2014-02-05 17:08:14.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: samples/server-generator/node/output/package.json
+  last_updated_by: Tony Tam
+  last_updated_on: 2012-08-28 04:05:03.000000000 Z
+- name: AFNetworking
+  description: A delightful networking framework for iOS, macOS, watchOS, and tvOS.
+    http://afnetworking.com
+  website_url: https://github.com/AFNetworking/AFNetworking
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/3183/1181541.png
+  detection_source: samples/client/petstore/objc/Podfile
+  last_updated_by: Tony Tam
+  last_updated_on: 2013-10-18 21:43:26.000000000 Z
+- name: CocoaPods
+  description: A dependency manager for Swift and Objective-C Cocoa projects
+  website_url: https://cocoapods.org/
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: CocoaPods Packages
+  image_url: https://img.stackshare.io/service/2426/e1cbdef9d4b11484049a033886578e54_400x400.png
+  detection_source: samples/client/petstore/objc/Podfile.lock
+  last_updated_by: Tony Tam
+  last_updated_on: 2013-10-18 21:43:26.000000000 Z
+- name: HTML
+  description: Hypertext Markup Language for creating web pages.
+  website_url: http://
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/2270/no-img-open-source.png
+  detection_source: samples/swagger-static-docs/docs/index.html
+  last_updated_by: Tony Tam
+  last_updated_on: 2014-07-04 17:19:28.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source: Repo Metadata
+- name: com.fasterxml.jackson.core:jackson-annotations
+  description: Core annotations used for value types
+  version: 2.1.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: github.com/dreamfactorysoftware/swagger-codegen/blob/master/samples/client/petstore/android-java/pom.xml
+  detection_source: samples/client/petstore/android-java/pom.xml
+  last_updated_by: Tony Tam
+  last_updated_on: 2013-09-20 19:34:12.000000000 Z
+- name: com.fasterxml.jackson.core:jackson-core
+  description: Core Jackson processing abstractions
+  version: 2.1.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: github.com/dreamfactorysoftware/swagger-codegen/blob/master/samples/client/petstore/android-java/pom.xml
+  detection_source: samples/client/petstore/android-java/pom.xml
+  last_updated_by: Tony Tam
+  last_updated_on: 2013-09-20 19:34:12.000000000 Z
+- name: com.fasterxml.jackson.core:jackson-databind
+  description: 'General data-binding functionality for Jackson: works on core streaming
+    API'
+  version: 2.1.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: github.com/dreamfactorysoftware/swagger-codegen/blob/master/samples/client/petstore/android-java/pom.xml
+  detection_source: samples/client/petstore/android-java/pom.xml
+  last_updated_by: Tony Tam
+  last_updated_on: 2013-09-20 19:34:12.000000000 Z
+  vulnerabilities:
+  - name: Arbitrary Code Execution in jackson-databind
+    cve_id: CVE-2018-14718
+    cve_url: https://github.com/advisories/GHSA-645p-88qh-w398
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 2.6.7.3
+  - name: Arbitrary Code Execution in jackson-databind
+    cve_id: CVE-2018-14719
+    cve_url: https://github.com/advisories/GHSA-4gq5-ch57-c2mg
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 2.7.9.5
+  - name: 'FasterXML jackson-databind allows unauthenticated remote code execution '
+    cve_id: CVE-2018-7489
+    cve_url: https://github.com/advisories/GHSA-cggj-fvv3-cqwv
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 2.8.11.1
+  - name: Improper Input Validation in jackson-databind
+    cve_id: CVE-2019-17267
+    cve_url: https://github.com/advisories/GHSA-f3j5-rmmp-3fc5
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 2.8.11.5
+  - name: jackson-databind is vulnerable to a deserialization flaw
+    cve_id: CVE-2017-7525
+    cve_url: https://github.com/advisories/GHSA-qxxx-2pp7-5hmx
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 2.6.7.1
+  - name: Polymorphic Typing in FasterXML jackson-databind
+    cve_id: CVE-2019-16942
+    cve_url: https://github.com/advisories/GHSA-mx7p-6679-8g3q
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 2.9.10.1
+  - name: Deserialization of Untrusted Data in jackson-databind
+    cve_id: CVE-2020-8840
+    cve_url: https://github.com/advisories/GHSA-4w82-r329-3q67
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 2.6.7.4
+  - name: jackson-databind mishandles the interaction between serialization gadgets
+      and typing
+    cve_id: CVE-2020-9548
+    cve_url: https://github.com/advisories/GHSA-p43x-xfjf-5jhr
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 2.7.9.7
+  - name: jackson-databind mishandles the interaction between serialization gadgets
+      and typing
+    cve_id: CVE-2020-9547
+    cve_url: https://github.com/advisories/GHSA-q93h-jc49-78gg
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 2.7.9.7
+  - name: Polymorphic Typing issue in FasterXML jackson-databind
+    cve_id: CVE-2019-14540
+    cve_url: https://github.com/advisories/GHSA-h822-r4r5-v8jg
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 2.6.7.3
+  - name: Polymorphic Typing issue in FasterXML jackson-databind
+    cve_id: CVE-2019-16335
+    cve_url: https://github.com/advisories/GHSA-85cw-hj65-qqv9
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 2.6.7.3
+  - name: Deserialization of Untrusted Data in jackson-databind
+    cve_id: CVE-2019-20330
+    cve_url: https://github.com/advisories/GHSA-gww7-p5w4-wrfv
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 2.6.7.4
+  - name: Deserialization of Untrusted Data in jackson-databind
+    cve_id: CVE-2018-11307
+    cve_url: https://github.com/advisories/GHSA-qr7j-h6gg-jmgc
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 2.7.9.4
+  - name: jackson-databind vulnerable to remote code execution due to incorrect deserialization
+      and blocklist bypass
+    cve_id: CVE-2017-17485
+    cve_url: https://github.com/advisories/GHSA-rfx6-vp9g-rh7v
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 2.8.11
+  - name: jackson-databind polymorphic typing issue
+    cve_id: CVE-2019-17531
+    cve_url: https://github.com/advisories/GHSA-gjmw-vf9h-g25v
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 2.6.7.3
+  - name: jackson-databind polymorphic typing issue
+    cve_id: CVE-2019-16943
+    cve_url: https://github.com/advisories/GHSA-fmmc-742q-jg75
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 2.6.7.3
+  - name: Deserialization of untrusted data in FasterXML jackson-databind
+    cve_id: CVE-2019-14379
+    cve_url: https://github.com/advisories/GHSA-6fpp-rgj9-8rwc
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 2.7.9.6
+  - name: Deeply nested json in jackson-databind
+    cve_id: CVE-2020-36518
+    cve_url: https://github.com/advisories/GHSA-57j2-w4cx-62h2
+    detected_date: Mar 23
+    severity: high
+    first_patched: 2.12.6.1
+  - name: Uncontrolled Resource Consumption in FasterXML jackson-databind
+    cve_id: CVE-2022-42004
+    cve_url: https://github.com/advisories/GHSA-rgv9-q543-rqg4
+    detected_date: Oct 5
+    severity: high
+    first_patched: 2.12.7.1
+  - name: jackson-databind before 2.9.10.4 vulnerable to unsafe deserialization
+    cve_id: CVE-2020-10650
+    cve_url: https://github.com/advisories/GHSA-rpr3-cw39-3pxh
+    detected_date: Jul 16
+    severity: high
+    first_patched: 2.9.10.4
+  - name: Deserialization of untrusted data in FasterXML jackson-databind
+    cve_id: CVE-2019-14439
+    cve_url: https://github.com/advisories/GHSA-gwp4-hfv6-p7hw
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.6.7.3
+  - name: Polymorphic deserialization of malicious object in jackson-databind
+    cve_id: CVE-2019-14892
+    cve_url: https://github.com/advisories/GHSA-cf6r-3wgc-h863
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.6.7.3
+  - name: Unsafe Deserialization in jackson-databind
+    cve_id: CVE-2020-24750
+    cve_url: https://github.com/advisories/GHSA-qjw2-hr98-qgfh
+    detected_date: Jan 28
+    severity: high
+    first_patched: 2.6.7.5
+  - name: Serialization gadget exploit in jackson-databind
+    cve_id: CVE-2020-35728
+    cve_url: https://github.com/advisories/GHSA-5r5r-6hpj-8gg9
+    detected_date: Nov 22
+    severity: high
+    first_patched: 2.9.10.8
+  - name: jackson-databind mishandles the interaction between serialization gadgets
+      and typing
+    cve_id: CVE-2020-10673
+    cve_url: https://github.com/advisories/GHSA-fqwf-pjwf-7vqv
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.6.7.4
+  - name: jackson-databind Deserialization of Untrusted Data vulnerability
+    cve_id: CVE-2018-12022
+    cve_url: https://github.com/advisories/GHSA-cjjf-94ff-43w7
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.7.9.4
+  - name: Unsafe Deserialization in jackson-databind
+    cve_id: CVE-2020-36181
+    cve_url: https://github.com/advisories/GHSA-cvm9-fjm9-3572
+    detected_date: Jan 28
+    severity: high
+    first_patched: 2.6.7.5
+  - name: Unsafe Deserialization in jackson-databind
+    cve_id: CVE-2020-36186
+    cve_url: https://github.com/advisories/GHSA-v585-23hc-c647
+    detected_date: Jan 18
+    severity: high
+    first_patched: 2.9.10.8
+  - name: Code Injection in jackson-databind
+    cve_id: CVE-2020-24616
+    cve_url: https://github.com/advisories/GHSA-h3cw-g4mq-c5x2
+    detected_date: Jan 28
+    severity: high
+    first_patched: 2.9.10.6
+  - name: Serialization gadgets exploit in jackson-databind
+    cve_id: CVE-2020-35490
+    cve_url: https://github.com/advisories/GHSA-wh8g-3j2c-rqj5
+    detected_date: Jan 28
+    severity: high
+    first_patched: 2.9.10.8
+  - name: Serialization gadgets exploit in jackson-databind
+    cve_id: CVE-2020-35491
+    cve_url: https://github.com/advisories/GHSA-r3gr-cxrf-hg25
+    detected_date: Jan 28
+    severity: high
+    first_patched: 2.9.10.8
+  - name: Unsafe Deserialization in jackson-databind
+    cve_id: CVE-2020-36182
+    cve_url: https://github.com/advisories/GHSA-89qr-369f-5m5x
+    detected_date: Jan 28
+    severity: high
+    first_patched: 2.6.7.5
+  - name: Unsafe Deserialization in jackson-databind
+    cve_id: CVE-2020-36179
+    cve_url: https://github.com/advisories/GHSA-9gph-22xh-8x98
+    detected_date: Jan 28
+    severity: high
+    first_patched: 2.6.7.5
+  - name: Unsafe Deserialization in jackson-databind
+    cve_id: CVE-2020-36185
+    cve_url: https://github.com/advisories/GHSA-8w26-6f25-cm9x
+    detected_date: Jan 28
+    severity: high
+    first_patched: 2.9.10.8
+  - name: Unsafe Deserialization in jackson-databind
+    cve_id: CVE-2020-36180
+    cve_url: https://github.com/advisories/GHSA-8c4j-34r4-xr8g
+    detected_date: Jan 28
+    severity: high
+    first_patched: 2.6.7.5
+  - name: Unsafe Deserialization in jackson-databind
+    cve_id: CVE-2020-36184
+    cve_url: https://github.com/advisories/GHSA-m6x4-97wx-4q27
+    detected_date: Jan 28
+    severity: high
+    first_patched: 2.9.10.8
+  - name: Unsafe Deserialization in jackson-databind
+    cve_id: CVE-2020-36183
+    cve_url: https://github.com/advisories/GHSA-9m6f-7xcq-8vf8
+    detected_date: Jan 28
+    severity: high
+    first_patched: 2.6.7.5
+  - name: Unsafe Deserialization in jackson-databind
+    cve_id: CVE-2020-36188
+    cve_url: https://github.com/advisories/GHSA-f9xh-2qgp-cq57
+    detected_date: Jan 28
+    severity: high
+    first_patched: 2.6.7.5
+  - name: Unsafe Deserialization in jackson-databind
+    cve_id: CVE-2020-36187
+    cve_url: https://github.com/advisories/GHSA-r695-7vr9-jgc2
+    detected_date: Jan 28
+    severity: high
+    first_patched: 2.9.10.8
+  - name: Unsafe Deserialization in jackson-databind
+    cve_id: CVE-2020-36189
+    cve_url: https://github.com/advisories/GHSA-vfqx-33qm-g869
+    detected_date: Jan 28
+    severity: high
+    first_patched: 2.6.7.5
+  - name: Information exposure in FasterXML jackson-databind
+    cve_id: CVE-2019-12086
+    cve_url: https://github.com/advisories/GHSA-5ww9-j83m-q7qx
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.9.9
+  - name: Deserialization of Untrusted Data in jackson-databind
+    cve_id: CVE-2018-5968
+    cve_url: https://github.com/advisories/GHSA-w3f4-3q6j-rh82
+    detected_date: Aug 22
+    severity: high
+    first_patched: 
+  - name: Deserialization of untrusted data in jackson-databind
+    cve_id: CVE-2021-20190
+    cve_url: https://github.com/advisories/GHSA-5949-rw7g-wx7w
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.6.7.5
+  - name: Deserialization of Untrusted Data in FasterXML jackson-databind
+    cve_id: CVE-2019-12384
+    cve_url: https://github.com/advisories/GHSA-mph4-vhrx-mv67
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 2.9.9.1
+  - name: Deserialization of untrusted data in FasterXML jackson-databind
+    cve_id: CVE-2019-12814
+    cve_url: https://github.com/advisories/GHSA-cmfg-87vq-g5g4
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 2.9.9.1
+- name: com.fasterxml.jackson.datatype:jackson-datatype-joda
+  description: Add-on module for Jackson
+  version: 2.1.5
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: github.com/dreamfactorysoftware/swagger-codegen/blob/master/samples/client/petstore/java/pom.xml
+  detection_source: samples/client/petstore/java/pom.xml
+  last_updated_by: Tony Tam
+  last_updated_on: 2014-08-08 20:38:38.000000000 Z
+- name: com.sun.jersey.contribs:jersey-multipart
+  version: '1.7'
+  license: CNRI-Python-GPL-Compatible
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: github.com/dreamfactorysoftware/swagger-codegen/blob/master/samples/client/petstore/java/pom.xml
+  detection_source: samples/client/petstore/java/pom.xml
+  last_updated_by: Tony Tam
+  last_updated_on: 2014-08-08 20:38:38.000000000 Z
+- name: com.sun.jersey:jersey-client
+  version: '1.7'
+  license: CNRI-Python-GPL-Compatible
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: github.com/dreamfactorysoftware/swagger-codegen/blob/master/samples/client/petstore/java/pom.xml
+  detection_source: samples/client/petstore/java/pom.xml
+  last_updated_by: Tony Tam
+  last_updated_on: 2014-08-08 20:38:38.000000000 Z
+- name: javax.servlet:servlet-api
+  version: '2.5'
+  license: CDDL-1.0,GPL-2.0-with-classpath-exception
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: github.com/dreamfactorysoftware/swagger-codegen/blob/master/samples/server-generator/java-jaxrs/output/pom.xml
+  detection_source: samples/server-generator/java-jaxrs/output/pom.xml
+  last_updated_by: Tony Tam
+  last_updated_on: 2013-04-03 07:19:21.000000000 Z
+- name: joda-time:joda-time
+  description: Date and time library to replace JDK date handling
+  version: '2.3'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: github.com/dreamfactorysoftware/swagger-codegen/blob/master/samples/client/petstore/java/pom.xml
+  detection_source: samples/client/petstore/java/pom.xml
+  last_updated_by: Tony Tam
+  last_updated_on: 2014-03-05 15:54:03.000000000 Z
+- name: junit:junit
+  description: JUnit is a unit testing framework for Java
+  version: 4.8.1
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: github.com/dreamfactorysoftware/swagger-codegen/blob/master/samples/client/petstore/android-java/pom.xml
+  detection_source: samples/client/petstore/android-java/pom.xml
+  last_updated_by: Tony Tam
+  last_updated_on: 2013-09-20 19:34:12.000000000 Z
+  vulnerabilities:
+  - name: TemporaryFolder on unix-like systems does not limit access to created files
+    cve_id: CVE-2020-15250
+    cve_url: https://github.com/advisories/GHSA-269g-pwp5-87pp
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 4.13.1
+- name: org.apache.httpcomponents:httpclient
+  description: Apache HttpComponents Client
+  version: '4.0'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: github.com/dreamfactorysoftware/swagger-codegen/blob/master/samples/client/petstore/android-java/pom.xml
+  detection_source: samples/client/petstore/android-java/pom.xml
+  last_updated_by: Tony Tam
+  last_updated_on: 2014-06-10 17:36:46.000000000 Z
+  vulnerabilities:
+  - name: High severity vulnerability that affects org.apache.httpcomponents:httpclient
+    cve_id: CVE-2012-6153
+    cve_url: https://github.com/advisories/GHSA-2x83-r56g-cv47
+    detected_date: Aug 22
+    severity: high
+    first_patched: 4.2.3
+  - name: Denial of service vulnerability in org.apache.httpcomponents:httpclient
+    cve_id: CVE-2015-5262
+    cve_url: https://github.com/advisories/GHSA-fmj5-wv96-r2ch
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 4.3.6
+  - name: Cross-site scripting in Apache HttpClient
+    cve_id: CVE-2020-13956
+    cve_url: https://github.com/advisories/GHSA-7r82-7xv7-xcpj
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 4.5.13
+  - name: Improper Verification of Cryptographic Signature in org.apache.httpcomponents:httpclient
+    cve_id: CVE-2014-3577
+    cve_url: https://github.com/advisories/GHSA-cfh5-3ghh-wfjx
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 4.3.5
+  - name: Exposure of Sensitive Information to an Unauthorized Actor in Apache HttpClient
+    cve_id: CVE-2011-1498
+    cve_url: https://github.com/advisories/GHSA-gw85-4gmf-m7rh
+    detected_date: Jul 14
+    severity: moderate
+    first_patched: 4.1.1
+- name: org.scala-lang:scala-library
+  description: Standard library for the Scala Programming Language
+  version: 2.9.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: github.com/dreamfactorysoftware/swagger-codegen/blob/master/samples/client/wordnik-api/android/pom.xml
+  detection_source: samples/client/petstore/scala/pom.xml
+  last_updated_by: Tony Tam
+  last_updated_on: 2014-06-10 23:50:17.000000000 Z
+- name: org.scalatest:scalatest_2.9.1
+  description: ScalaTest is a free
+  version: 1.6.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: github.com/dreamfactorysoftware/swagger-codegen/blob/master/samples/client/wordnik-api/android/pom.xml
+  detection_source: samples/client/wordnik-api/android/pom.xml
+  last_updated_by: Tony Tam
+  last_updated_on: 2014-01-06 20:27:31.000000000 Z
+- name: addressable
+  description: Addressable is an alternative implementation to the URI implementation
+    that is part of Ruby's standard library
+  package_url: https://rubygems.org/addressable
+  version: 2.2.8
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18870/default_63d360ffaa27bed91e2b067fb467407b5c9da0ed.png
+  detection_source_url: github.com/dreamfactorysoftware/swagger-codegen/blob/master/samples/client/petstore/ruby/Gemfile.lock
+  detection_source: samples/client/petstore/ruby/swagger.gemspec
+  last_updated_by: Tony Tam
+  last_updated_on: 2012-09-26 20:02:27.000000000 Z
+- name: autotest
+  description: This is a stub gem to fix the confusion caused by autotest being part
+    of the ZenTest suite
+  package_url: https://rubygems.org/autotest
+  version: 4.4.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18970/default_8a75552e235d99e627ca98a8b9ebb9e65dcddc18.png
+  detection_source_url: github.com/dreamfactorysoftware/swagger-codegen/blob/master/samples/client/petstore/ruby/Gemfile.lock
+  detection_source: samples/client/petstore/ruby/swagger.gemspec
+  last_updated_by: Tony Tam
+  last_updated_on: 2012-09-26 20:02:27.000000000 Z
+- name: autotest-fsevent
+  description: Autotest relies on filesystem polling to detect modifications in source
+    code files
+  package_url: https://rubygems.org/autotest-fsevent
+  version: 0.2.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19117/default_895b136bfe1b94a438300746eac353287c337067.png
+  detection_source_url: github.com/dreamfactorysoftware/swagger-codegen/blob/master/samples/client/petstore/ruby/Gemfile.lock
+  detection_source: samples/client/petstore/ruby/swagger.gemspec
+  last_updated_by: Tony Tam
+  last_updated_on: 2012-09-26 20:02:27.000000000 Z
+- name: autotest-growl
+  description: This gem aims to improve support for Growl notifications by autotest
+  package_url: https://rubygems.org/autotest-growl
+  version: 0.2.16
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19093/default_7d8fff827ba2485899e223ac4fb9773463ea4acd.png
+  detection_source_url: github.com/dreamfactorysoftware/swagger-codegen/blob/master/samples/client/petstore/ruby/Gemfile.lock
+  detection_source: samples/client/petstore/ruby/swagger.gemspec
+  last_updated_by: Tony Tam
+  last_updated_on: 2012-09-26 20:02:27.000000000 Z
+- name: autotest-rails-pure
+  description: Autotest for Test::Unit on Rails
+  package_url: https://rubygems.org/autotest-rails-pure
+  version: 4.1.2
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19251/default_98f442e49a9cf6ba040115f23dce11c5a9c322be.png
+  detection_source_url: github.com/dreamfactorysoftware/swagger-codegen/blob/master/samples/client/petstore/ruby/Gemfile.lock
+  detection_source: samples/client/petstore/ruby/swagger.gemspec
+  last_updated_by: Tony Tam
+  last_updated_on: 2012-09-26 20:02:27.000000000 Z
+- name: json
+  description: This is a JSON implementation as a Ruby extension in C
+  package_url: https://rubygems.org/json
+  version: 1.7.0
+  license: Ruby
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18822/default_19184669508c0f71aec9521d5f14d71b77203130.png
+  detection_source_url: github.com/dreamfactorysoftware/swagger-codegen/blob/master/samples/client/petstore/ruby/Gemfile.lock
+  detection_source: samples/client/petstore/ruby/swagger.gemspec
+  last_updated_by: Tony Tam
+  last_updated_on: 2012-09-26 20:02:27.000000000 Z
+  vulnerabilities:
+  - name: Unsafe object creation in json RubyGem
+    cve_id: CVE-2020-10663
+    cve_url: https://github.com/advisories/GHSA-jphg-qwrw-7w9g
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.3.0
+  - name: JSON gem has Improper Input Validation vulnerability
+    cve_id: CVE-2013-0269
+    cve_url: https://github.com/advisories/GHSA-x457-cw4h-hq5f
+    detected_date: Aug 22
+    severity: high
+    first_patched: 1.7.7
+- name: sinatra-cross_origin
+  description: Cross Origin Resource Sharing helper for Sinatra
+  package_url: https://rubygems.org/sinatra-cross_origin
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source: samples/server-generator/sinatra/output/Gemfile
+  last_updated_by: Tony Tam
+  last_updated_on: 2012-09-06 16:19:13.000000000 Z
+- name: typhoeus
+  description: Like a modern code version of the mythical beast with 100 serpent heads
+  package_url: https://rubygems.org/typhoeus
+  version: 0.3.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18891/default_b7088ec778267614a78a5a472c67252ec1721d10.png
+  detection_source_url: github.com/dreamfactorysoftware/swagger-codegen/blob/master/samples/client/petstore/ruby/Gemfile.lock
+  detection_source: samples/client/petstore/ruby/swagger.gemspec
+  last_updated_by: Tony Tam
+  last_updated_on: 2012-09-26 20:02:27.000000000 Z
+- name: vcr
+  description: Record your test suite's HTTP interactions and replay them during future
+    test runs for fast
+  package_url: https://rubygems.org/vcr
+  version: 2.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18842/default_49e8e438a279d3b7963273823890f9482ce83fb4.png
+  detection_source_url: github.com/dreamfactorysoftware/swagger-codegen/blob/master/samples/client/petstore/ruby/Gemfile.lock
+  detection_source: samples/client/petstore/ruby/swagger.gemspec
+  last_updated_by: Tony Tam
+  last_updated_on: 2012-09-26 20:02:27.000000000 Z
+- name: webmock
+  description: WebMock allows stubbing HTTP requests and setting expectations on HTTP
+    requests
+  package_url: https://rubygems.org/webmock
+  version: 1.8.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18824/default_6564ae059af6c4ea7065fd2329370c7a05341cf8.png
+  detection_source_url: github.com/dreamfactorysoftware/swagger-codegen/blob/master/samples/client/petstore/ruby/Gemfile.lock
+  detection_source: samples/client/petstore/ruby/swagger.gemspec
+  last_updated_by: Tony Tam
+  last_updated_on: 2012-09-26 20:02:27.000000000 Z
+- name: connect
+  description: High performance middleware framework
+  package_url: https://www.npmjs.com/connect
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16202/default_2c2f2c7b016f84c0fad2576cb986cb14a5dbbc2f.png
+  detection_source: samples/server-generator/node/output/package.json
+  last_updated_by: Tony Tam
+  last_updated_on: 2014-06-11 13:41:31.000000000 Z
+- name: cors
+  description: Node.js CORS middleware
+  package_url: https://www.npmjs.com/cors
+  version: 2.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16165/default_41f04716a804e853d5c38a5b81ee0ea8a842ad82.png
+  detection_source_url: github.com/dreamfactorysoftware/swagger-codegen/blob/master/samples/server-generator/node/output/package.json
+  detection_source: samples/server-generator/node/output/package.json
+  last_updated_by: Tony Tam
+  last_updated_on: 2014-06-11 13:41:31.000000000 Z
+- name: express
+  description: Fast, unopinionated, minimalist web framework
+  package_url: https://www.npmjs.com/express
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source: samples/server-generator/node/output/package.json
+  last_updated_by: Tony Tam
+  last_updated_on: 2014-06-11 13:41:31.000000000 Z
+- name: js-yaml
+  description: YAML 1.2 parser and serializer
+  package_url: https://www.npmjs.com/js-yaml
+  version: '3.0'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15997/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source_url: github.com/dreamfactorysoftware/swagger-codegen/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Tony Tam
+  last_updated_on: 2013-12-21 00:42:59.000000000 Z
+  vulnerabilities:
+  - name: Code Injection in js-yaml
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-8j8c-7jfh-h6hx
+    detected_date: Aug 22
+    severity: high
+    first_patched: 3.13.1
+  - name: Denial of Service in js-yaml
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-2pr6-76vf-7546
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 3.13.0
